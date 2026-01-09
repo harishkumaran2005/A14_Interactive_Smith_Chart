@@ -1,49 +1,59 @@
-# EduAIthon 2026 – Project Submissions
+# 📡 SMITH.IO - Advanced Smith Chart Simulator
 
-Welcome to the official GitHub repository for **EduAIthon 2026** project submissions.
+A premium, interactive RF engineering tool built with Flutter. Featuring high-speed AI assistance powered by **Groq (Llama 3.1)** and **Google Gemini**, an analytic matching solver, and a responsive 3-panel professional dashboard.
 
----
-
-## 📌 Submission Instructions (Very Simple)
-
-1. Create a folder with your **Team Name**
-2. Upload all your project files inside that folder
-3. You may upload:
-   - Source code
-   - README.md (project explanation)
-   - PPT / PDF
-   - ZIP file (recommended)
-4. For demo videos larger than 100MB:
-   - Upload to Google Drive or YouTube
-   - Paste the link inside a text file
+[![Deployed to Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com)
+[![Deployed to Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://netlify.com)
 
 ---
 
-## 📂 Folder Structure (Example)
+## 🚀 Quick Start (Local)
 
-TeamInnovators/
-│── README.md
-│── project.zip
-│── presentation.pptx
-│── demo-link.txt
-
----
-
-## ⚠️ Important Rules
-
-- Do **NOT** modify or delete other teams’ folders
-- One submission per team only
-- Maximum file size: **100MB per file**
-- Submission after the deadline will not be evaluated
+1. **Install Flutter**: Make sure you have the [Flutter SDK](https://docs.flutter.dev/get-started/install) installed.
+2. **Clone the Repo**:
+   ```bash
+   git clone <your-repo-url>
+   cd smith_chart
+   ```
+3. **Run the App**:
+   ```bash
+   flutter run -d chrome --dart-define=GROQ_KEY=your_key --dart-define=GEMINI_KEY=your_key
+   ```
 
 ---
 
-## ⏰ Submission Deadline
+## 🌍 Global Deployment (Vercel/Netlify)
 
-DD / MM / YYYY – HH:MM IST
+### 1. Build Command
+To build the production-ready web application securely:
+```bash
+flutter build web --release \
+  --dart-define=GROQ_KEY=YOUR_GROQ_KEY \
+  --dart-define=GEMINI_KEY=YOUR_GEMINI_KEY
+```
+
+### 2. Netlify (Drag & Drop)
+Simply drag the `build/web` folder into the Netlify manual deploy area.
+
+### 3. Vercel (GitHub integration)
+1. Push this project to GitHub.
+2. Connect to Vercel.
+3. Vercel will automatically detect the `vercel.json` and start the build.
+4. **Environment Variables**: Use Vercel's UI to add `GROQ_KEY` and `GEMINI_KEY` values.
 
 ---
 
-## 📩 Contact
+## 🛠 Features
+- **3-Panel Dashboard**: Components, Chart, and Results all visible at once.
+- **AI Expert Chat**: Integrated RF engineering consultancy.
+- **Analytic Solver**: Automatic single-stub matching calculations.
+- **Glassmorphism UI**: Modern, sleek aesthetics for engineers.
+- **Mobile Optimized**: Fully responsive layout for all screen sizes.
 
-For any issues related to submissions, contact the EduAIthon organizing team.
+---
+
+## 📄 Documentation
+- [Engineering Walkthrough](file:///C:/Users/dheep/.gemini/antigravity/brain/29b1ebc1-1ed6-4070-b1e7-68d1de8920f6/engineering_walkthrough.md)
+- [Mobile Deployment Guide](file:///C:/Users/dheep/.gemini/antigravity/brain/29b1ebc1-1ed6-4070-b1e7-68d1de8920f6/deployment_guide.md)
+- [Web Deployment Guide](file:///C:/Users/dheep/.gemini/antigravity/brain/29b1ebc1-1ed6-4070-b1e7-68d1de8920f6/web_deployment_guide.md)
+
