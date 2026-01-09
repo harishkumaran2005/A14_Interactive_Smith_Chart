@@ -1,3 +1,7 @@
+Refer this link for presentation video
+https://drive.google.com/file/d/1p7vVOliyrKjreuE18YjIdy7J5dthekgs/view?usp=drive_link
+The file below is the zip file's drive link
+https://drive.google.com/file/d/1W9dNDBywywMRMwrXQ7Zl4a7HqSJdjSkf/view?usp=sharing
 # 📡 SMITH.IO - Advanced Smith Chart Simulator
 
 A premium, interactive RF engineering tool built with Flutter. Featuring high-speed AI assistance powered by **Groq (Llama 3.1)** and **Google Gemini**, an analytic matching solver, and a responsive 3-panel professional dashboard.
@@ -56,4 +60,5 @@ Simply drag the `build/web` folder into the Netlify manual deploy area.
 - [Engineering Walkthrough](file:///C:/Users/dheep/.gemini/antigravity/brain/29b1ebc1-1ed6-4070-b1e7-68d1de8920f6/engineering_walkthrough.md)
 - [Mobile Deployment Guide](file:///C:/Users/dheep/.gemini/antigravity/brain/29b1ebc1-1ed6-4070-b1e7-68d1de8920f6/deployment_guide.md)
 - [Web Deployment Guide](file:///C:/Users/dheep/.gemini/antigravity/brain/29b1ebc1-1ed6-4070-b1e7-68d1de8920f6/web_deployment_guide.md)
+
 
